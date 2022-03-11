@@ -2,7 +2,7 @@ from pathlib import Path
 import os
 import shutil
 
-from directories import return_category
+from modules.directories import return_category
 
 def byExtension(current_directory):
     current_directory = Path(current_directory)

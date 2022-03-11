@@ -1,10 +1,10 @@
 import argparse
 import os
 #importing local modules
-from extension import byExtension
-from dateModified import byDateModified
-from fileSize import byFileSize
-from alphabet import byAlphabet
+from modules.extension import byExtension
+from modules.dateModified import byDateModified
+from modules.fileSize import byFileSize
+from modules.alphabet import byAlphabet
 
 #main function which call all other functions
 def main(organizeBy, directory):
